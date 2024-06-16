@@ -10,7 +10,9 @@ namespace AtmApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("test commit");
+            //Initializing the atm app to start taking inputs from user
+            AtmApplication app = new AtmApplication();
+            app.Start();
         }
     }
 }
