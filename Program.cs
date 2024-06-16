@@ -10,6 +10,7 @@ namespace AtmApplication
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("test commit");
         }
     }
 }
